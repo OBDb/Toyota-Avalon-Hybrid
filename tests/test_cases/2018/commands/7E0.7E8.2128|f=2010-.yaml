@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.2128|f=2010-
+test_cases:
+- expected_values:
+    AVALONH_ODO_7E0: 112174
+  response: 7E805612801B62E
+- expected_values:
+    AVALONH_ODO_7E0: 112175
+  response: 7E805612801B62F
+- expected_values:
+    AVALONH_ODO_7E0: 112177
+  response: 7E805612801B631
+- expected_values:
+    AVALONH_ODO_7E0: 112182
+  response: 7E805612801B636
+- expected_values:
+    AVALONH_ODO_7E0: 112196
+  response: 7E805612801B644
+- expected_values:
+    AVALONH_ODO_7E0: 112224
+  response: 7E805612801B660
+- expected_values:
+    AVALONH_ODO_7E0: 112225
+  response: 7E805612801B661
+- expected_values:
+    AVALONH_ODO_7E0: 112227
+  response: 7E805612801B663
+- expected_values:
+    AVALONH_ODO_7E0: 112240
+  response: 7E805612801B670

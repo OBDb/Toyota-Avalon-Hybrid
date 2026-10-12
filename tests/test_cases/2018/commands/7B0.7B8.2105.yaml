@@ -1,0 +1,14 @@
+command_id: 7B0.7B8.2105
+test_cases:
+- expected_values:
+    AVALONH_DECEL: -1.35459
+    AVALONH_DECEL_2: 0.64165
+  response: 7B8056105768400
+- expected_values:
+    AVALONH_DECEL: -0.21388
+    AVALONH_DECEL_2: -0.35647
+  response: 7B80561057E7D00
+- expected_values:
+    AVALONH_DECEL: 0.64165
+    AVALONH_DECEL_2: 0.49906
+  response: 7B805610584832B

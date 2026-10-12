@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2128|f=2010-
+test_cases:
+- expected_values:
+    AVALONH_ODO_7E0: 350345
+  response: '7E8056128055889'
+- expected_values:
+    AVALONH_ODO_7E0: 350464
+  response: '7E8056128055900'
+- expected_values:
+    AVALONH_ODO_7E0: 351487
+  response: 7E8056128055CFF
+- expected_values:
+    AVALONH_ODO_7E0: 430501
+  response: 7E80561280691A5

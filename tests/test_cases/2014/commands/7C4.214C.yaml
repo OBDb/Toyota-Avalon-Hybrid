@@ -1,0 +1,14 @@
+command_id: 7C4.214C
+test_cases:
+- expected_values:
+    AVALONH_EVAPORATOR_TARGET_TEMP: 2
+  response: 7CC04614C80C8
+- expected_values:
+    AVALONH_EVAPORATOR_TARGET_TEMP: 2.56
+  response: 7CC04614C8100
+- expected_values:
+    AVALONH_EVAPORATOR_TARGET_TEMP: 5.11
+  response: 7CC04614C81FF
+- expected_values:
+    AVALONH_EVAPORATOR_TARGET_TEMP: 7.7
+  response: 7CC04614C8302

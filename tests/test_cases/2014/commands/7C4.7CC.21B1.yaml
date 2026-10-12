@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.21B1
+test_cases:
+- expected_values:
+    AVALONH_GLASS_HUMIDITY: 16.3592
+  response: 7CC0461B129E1
+- expected_values:
+    AVALONH_GLASS_HUMIDITY: 19.13939
+  response: 7CC0461B130FF
+- expected_values:
+    AVALONH_GLASS_HUMIDITY: 29.29885
+  response: 7CC0461B14B01
+- expected_values:
+    AVALONH_GLASS_HUMIDITY: 93.05867
+  response: 7CC0461B1EE3A

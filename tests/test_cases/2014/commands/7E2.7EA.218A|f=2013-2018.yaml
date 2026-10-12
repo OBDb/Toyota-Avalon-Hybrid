@@ -1,0 +1,23 @@
+command_id: 7E2.7EA.218A|f=2013-2018
+test_cases:
+- expected_values:
+    AVALONH_POWER_RESOURCE_IB: 241332.32
+  response: 7EA06618A5E6603CA
+- expected_values:
+    AVALONH_POWER_RESOURCE_IB: 244262.32
+  response: 7EA06618A5F8B0000
+- expected_values:
+    AVALONH_POWER_RESOURCE_IB: 273592.32
+  response: 7EA06618A6B000000
+- expected_values:
+    AVALONH_POWER_RESOURCE_IB: 310242.32
+  response: 7EA06618A795106FE
+- expected_values:
+    AVALONH_POWER_RESOURCE_IB: 326362.32
+  response: 7EA06618A7F9D0906
+- expected_values:
+    AVALONH_POWER_RESOURCE_IB: 327342.32
+  response: 7EA06618A7FFF0820
+- expected_values:
+    AVALONH_POWER_RESOURCE_IB: 452962.32
+  response: 7EA06618AB11105C8

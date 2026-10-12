@@ -1,0 +1,72 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821EB031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821EE031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821F5031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821F7031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821F9031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821FB031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821FC031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821FD031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460000807F
+    7B821FF031F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B81009614600008080
+    7B82100031F00000000

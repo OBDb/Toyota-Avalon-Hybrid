@@ -1,0 +1,29 @@
+command_id: 7C4.7CC.2124
+test_cases:
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 1
+  response: 7CC03612401
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 2
+  response: 7CC03612402
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 91
+  response: 7CC0361245B
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 95
+  response: 7CC0361245F
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 98
+  response: 7CC03612462
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 119
+  response: 7CC03612477
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 126
+  response: 7CC0361247E
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 141
+  response: 7CC0361248D
+- expected_values:
+    AVALONH_SOLAR_DRIVER: 163
+  response: 7CC036124A3

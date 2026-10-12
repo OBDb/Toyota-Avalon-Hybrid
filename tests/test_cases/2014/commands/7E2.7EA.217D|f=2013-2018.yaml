@@ -1,0 +1,17 @@
+command_id: 7E2.7EA.217D|f=2013-2018
+test_cases:
+- expected_values:
+    AVALONH_AC_CONS_POWER_W: 0
+    AVALONH_BOOST_RAT: 0
+    AVALONH_CONV_CARRIER_9_0_9_1_8_2_8_3_7_4_7_5_4_6: 0
+  response: 7EA05617D000000
+- expected_values:
+    AVALONH_AC_CONS_POWER_W: 4950
+    AVALONH_BOOST_RAT: 43.5
+    AVALONH_CONV_CARRIER_9_0_9_1_8_2_8_3_7_4_7_5_4_6: 0
+  response: 7EA05617D570063
+- expected_values:
+    AVALONH_AC_CONS_POWER_W: 4700
+    AVALONH_BOOST_RAT: 70
+    AVALONH_CONV_CARRIER_9_0_9_1_8_2_8_3_7_4_7_5_4_6: 0
+  response: 7EA05617D8C005E
