@@ -1,0 +1,8 @@
+command_id: 7C0.7C8.2129
+test_cases:
+- expected_values:
+    AVALONH_FUEL_INPUT: 74
+  response: 7C80361294A
+- expected_values:
+    AVALONH_FUEL_INPUT: 106
+  response: 7C80361296A

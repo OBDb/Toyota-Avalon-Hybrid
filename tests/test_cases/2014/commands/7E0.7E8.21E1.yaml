@@ -1,0 +1,42 @@
+command_id: 7E0.7E8.21E1
+test_cases:
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005DD1
+    7E82100000EDA000000
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005DD1
+    7E8210000390F000000
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005DD1
+    7E821000041A0000000
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005DD1
+    7E82100004FFD000000
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005DD4
+    7E82100001003000000
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005DFE
+    7E821000003C0000000
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005E01
+    7E821000041D2000000
+- expected_values:
+    AVALONH_CODES_INCLUDE: 0
+  response: |-
+    7E8100A61E100005E0A
+    7E82100011EC2000000

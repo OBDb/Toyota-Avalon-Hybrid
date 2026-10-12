@@ -1,0 +1,26 @@
+command_id: 7B0.7B8.2106
+test_cases:
+- expected_values:
+    AVALONH_YAW_1: -26
+    AVALONH_YAW_2: -26
+  response: 7B806610666667439
+- expected_values:
+    AVALONH_YAW_1: -23
+    AVALONH_YAW_2: -23
+  response: 7B806610669696BF6
+- expected_values:
+    AVALONH_YAW_1: -1
+    AVALONH_YAW_2: -1
+  response: 7B80661067F7F8000
+- expected_values:
+    AVALONH_YAW_1: 0
+    AVALONH_YAW_2: 0
+  response: 7B8066106808071FF
+- expected_values:
+    AVALONH_YAW_1: 17
+    AVALONH_YAW_2: 17
+  response: 7B806610691919329
+- expected_values:
+    AVALONH_YAW_1: 26
+    AVALONH_YAW_2: 26
+  response: 7B80661069A9A8C8A

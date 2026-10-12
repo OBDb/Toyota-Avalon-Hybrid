@@ -1,0 +1,14 @@
+command_id: 7C4.7CC.21AF
+test_cases:
+- expected_values:
+    AVALONH_GLASS_T: 48.44
+  response: 7CC0461AF8390
+- expected_values:
+    AVALONH_GLASS_T: 78.122
+  response: 7CC0461AF8A01
+- expected_values:
+    AVALONH_GLASS_T: 114.95
+  response: 7CC0461AF91FF
+- expected_values:
+    AVALONH_GLASS_T: 138.062
+  response: 7CC0461AF9703

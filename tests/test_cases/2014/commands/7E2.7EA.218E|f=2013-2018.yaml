@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.218E|f=2013-2018
+test_cases:
+- expected_values:
+    AVALONH_COOLING_FAN_0: 0
+  response: 7EA03618E00
+- expected_values:
+    AVALONH_COOLING_FAN_0: 67
+  response: 7EA03618E86

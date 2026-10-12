@@ -1,0 +1,11 @@
+command_id: 7C4.7CC.2149
+test_cases:
+- expected_values:
+    AVALONH_COMP_SPD: 0
+  response: 7CC0461490000
+- expected_values:
+    AVALONH_COMP_SPD: 1023
+  response: 7CC04614903FF
+- expected_values:
+    AVALONH_COMP_SPD: 8587
+  response: 7CC046149218B

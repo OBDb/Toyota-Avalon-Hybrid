@@ -1,0 +1,37 @@
+command_id: 7B0.7B8.2146
+test_cases:
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0.02
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460001807F
+    7B821E03F1700000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0.02
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460001807F
+    7B821E2081F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0.02
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460001807F
+    7B821EF3F1700000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0.02
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B8100961460001807F
+    7B821F0081F00000000
+- expected_values:
+    AVALONH_ZP_DEC: 0
+    AVALONH_ZP_DEC2: 0.02
+    AVALONH_ZP_YAW: 0
+  response: |-
+    7B81009614600018080
+    7B82100081000000000

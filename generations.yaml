@@ -1,0 +1,13 @@
+references:
+  - "https://en.wikipedia.org/wiki/Toyota_Avalon"
+
+generations:
+  - name: "Fourth Generation (XX40)"
+    start_year: 2013
+    end_year: 2018
+    description: "The first Avalon offered as a hybrid. It pairs a 2.5-liter 2AR-FXE Atkinson-cycle four-cylinder with Toyota's Hybrid Synergy Drive and an eCVT, for 200 horsepower combined, with a nickel-metal hydride battery behind the rear seat. It shares its platform and hybrid system with the XV50 Camry Hybrid and the Lexus ES 300h."
+
+  - name: "Fifth Generation (XX50)"
+    start_year: 2019
+    end_year: 2022
+    description: "Built on the TNGA-K platform shared with the XV70 Camry Hybrid and the Lexus ES 300h. The hybrid pairs a 2.5-liter A25A-FXS Dynamic Force four-cylinder with Toyota's fourth-generation hybrid system for 215 horsepower combined. The Avalon was discontinued in North America after the 2022 model year."
