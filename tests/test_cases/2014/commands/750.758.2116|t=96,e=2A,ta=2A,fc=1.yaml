@@ -1,0 +1,44 @@
+command_id: 750.758.2116|t=96,e=2A,ta=2A,fc=1
+test_cases:
+- expected_values:
+    AVALONH_TIRE_T_FR: 8
+    AVALONH_TIRE_T_RL: 9
+    AVALONH_TIRE_T_RR: 8
+  response: |-
+    7582A10076116003031
+    7582A21300000000000
+- expected_values:
+    AVALONH_TIRE_T_FR: 10
+    AVALONH_TIRE_T_RL: 9
+    AVALONH_TIRE_T_RR: 8
+  response: |-
+    7582A10076116003231
+    7582A21300000000000
+- expected_values:
+    AVALONH_TIRE_T_FR: 13
+    AVALONH_TIRE_T_RL: 12
+    AVALONH_TIRE_T_RR: 12
+  response: |-
+    7582A10076116003534
+    7582A21340000000000
+- expected_values:
+    AVALONH_TIRE_T_FR: 19
+    AVALONH_TIRE_T_RL: 16
+    AVALONH_TIRE_T_RR: 13
+  response: |-
+    7582A10076116003B38
+    7582A21350000000000
+- expected_values:
+    AVALONH_TIRE_T_FR: 22
+    AVALONH_TIRE_T_RL: 19
+    AVALONH_TIRE_T_RR: 18
+  response: |-
+    7582A10076116003E3B
+    7582A213A0000000000
+- expected_values:
+    AVALONH_TIRE_T_FR: 25
+    AVALONH_TIRE_T_RL: 21
+    AVALONH_TIRE_T_RR: 20
+  response: |-
+    7582A1007611600413D
+    7582A213C0000000000
