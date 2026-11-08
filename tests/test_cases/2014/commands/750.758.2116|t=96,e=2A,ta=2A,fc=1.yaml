@@ -10,6 +10,11 @@ test_cases:
     7582A10076116000000
     7582A21000000000000
 - expected_values:
+    AVALONH_TIRE_T_RR: 29
+  response: |-
+    7582A10076116000000
+    7582A21450000000000
+- expected_values:
     AVALONH_TIRE_T_FR: 8
     AVALONH_TIRE_T_RL: 9
     AVALONH_TIRE_T_RR: 8
@@ -26,11 +31,6 @@ test_cases:
     AVALONH_TIRE_T_FR: 11
   response: |-
     7582A10076116003300
-    7582A21000000000000
-- expected_values:
-    AVALONH_TIRE_T_FL: 9
-  response: |-
-    7582A10076116310000
     7582A21000000000000
 - expected_values:
     AVALONH_TIRE_T_FL: 38
