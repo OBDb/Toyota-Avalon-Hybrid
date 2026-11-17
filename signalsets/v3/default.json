@@ -5,7 +5,12 @@
   "commands": [
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "0103"}, "freq": 30,
   "signals": [
-    {"id": "AVALONH_ENG_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "AVALONH_ENG_ODO_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "AVALONH_ENG_ODO_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1002"}, "freq": 1,
   "signals": [
@@ -95,7 +100,7 @@
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "107B"}, "freq": 1,
   "signals": [
-    {"id": "AVALONH_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "AVALONH_EOT", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature", "suggestedMetric": "intakeAirTemperature"}
   ]},
 { "hdr": "700", "rax": "708", "dbg": true, "cmd": {"22": "1084"}, "freq": 1,
   "signals": [
@@ -229,7 +234,12 @@
   ]},
 { "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "0103"}, "freq": 10,
   "signals": [
-    {"id": "AVALONH_ODO", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "AVALONH_ODO_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "AVALONH_ODO_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "701", "rax": "709", "dbg": true, "cmd": {"22": "1620"}, "freq": 1,
   "signals": [
@@ -245,7 +255,12 @@
   ]},
 { "hdr": "747", "rax": "74F", "fcm1": true, "dbg": true, "cmd": {"22": "0103"}, "freq": 10,
   "signals": [
-    {"id": "AVALONH_ODO_V6", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "AVALONH_ODO_V6_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "AVALONH_ODO_V6_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "747", "rax": "74F", "dbg": true, "cmd": {"22": "1814"}, "freq": 5,
   "signals": [
@@ -652,7 +667,12 @@
   ]},
 { "hdr": "7D2", "rax": "7DA", "fcm1": true, "dbg": true, "cmd": {"22": "0103"}, "freq": 10,
   "signals": [
-    {"id": "AVALONH_ODO_V2_V2", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "AVALONH_ODO_V2_V2_RAW", "path": "Trips", "fmt": {"bix": 8, "len": 24, "max": 16777215, "unit": "scalar" }, "name": "Odometer, in the cluster's unit"},
+    {"id": "AVALONH_ODO_V2_V2_UNIT", "path": "Trips", "name": "Odometer unit", "fmt": {"len": 8, "map": {
+          "1": { "description": "Kilometers", "value": "KM" },
+          "2": { "description": "Miles",      "value": "MI" }
+        }}
+    }
   ]},
 { "hdr": "7D2", "rax": "7DA", "dbg": true, "cmd": {"22": "1002"}, "freq": 5,
   "signals": [
@@ -1254,5 +1274,19 @@
     {"id": "AVALONH_NUM_CURRENT_CODE", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of current DTCs"},
     {"id": "AVALONH_NUM_HISTORY_CODE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of history DTCs"}
   ]}
+],
+"synthetics": [
+  { "id": "AVALONH_ENG_ODO", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "AVALONH_ENG_ODO_RAW", "key": "AVALONH_ENG_ODO_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "AVALONH_ODO", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "AVALONH_ODO_RAW", "key": "AVALONH_ODO_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "AVALONH_ODO_V2_V2", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "AVALONH_ODO_V2_V2_RAW", "key": "AVALONH_ODO_V2_V2_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }},
+  { "id": "AVALONH_ODO_V6", "path": "Trips", "name": "Odometer", "max": 16777215, "unit": "kilometers", "suggestedMetric": "odometer", "formula": {
+    "op": "unit", "value": "AVALONH_ODO_V6_RAW", "key": "AVALONH_ODO_V6_UNIT", "units": { "KM": "kilometers", "MI": "miles" }
+  }}
 ]
 }
